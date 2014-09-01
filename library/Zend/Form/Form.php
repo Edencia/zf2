@@ -21,7 +21,7 @@ use Zend\InputFilter\InputProviderInterface;
 use Zend\Stdlib\ArrayUtils;
 use Zend\Stdlib\Hydrator\HydratorInterface;
 
-use Zen\InputFilter\InputFilterEdencia as InputFilter;
+use Zend\InputFilter\InputFilterEdencia as InputFilter;
 
 class Form extends Fieldset implements FormInterface
 {
