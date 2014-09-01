@@ -13,13 +13,15 @@ use Traversable;
 use Zend\Form\Element\Collection;
 use Zend\Form\Exception;
 use Zend\InputFilter\CollectionInputFilter;
-use Zend\InputFilter\InputFilter;
+//use Zend\InputFilter\InputFilter;
 use Zend\InputFilter\InputFilterAwareInterface;
 use Zend\InputFilter\InputFilterInterface;
 use Zend\InputFilter\InputFilterProviderInterface;
 use Zend\InputFilter\InputProviderInterface;
 use Zend\Stdlib\ArrayUtils;
 use Zend\Stdlib\Hydrator\HydratorInterface;
+
+use Zen\InputFilter\InputFilterEdencia as InputFilter;
 
 class Form extends Fieldset implements FormInterface
 {
