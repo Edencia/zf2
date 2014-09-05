@@ -12,7 +12,7 @@ namespace Zend\Form;
 use Traversable;
 use Zend\Form\Element\Collection;
 use Zend\InputFilter\CollectionInputFilter;
-use Zend\InputFilter\InputFilter;
+//use Zend\InputFilter\InputFilter;
 use Zend\InputFilter\InputFilterAwareInterface;
 use Zend\InputFilter\InputFilterInterface;
 use Zend\InputFilter\InputFilterProviderInterface;
@@ -20,6 +20,8 @@ use Zend\InputFilter\InputProviderInterface;
 use Zend\InputFilter\ReplaceableInputInterface;
 use Zend\Stdlib\ArrayUtils;
 use Zend\Stdlib\Hydrator\HydratorInterface;
+
+use Zend\InputFilter\InputFilterEdencia as InputFilter;
 
 class Form extends Fieldset implements FormInterface
 {
